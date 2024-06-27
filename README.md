@@ -11,6 +11,8 @@ $ git remote add origin https://github.com/makaeron/PlaceOrder.git
 $ git push -u origin main
 
 or to master---(then can raise PULL request to merge main)
+//Git Pull 
+$ git pull // to have updated code in local.
 
 //Pre-Installation
 --Selenium Jar
