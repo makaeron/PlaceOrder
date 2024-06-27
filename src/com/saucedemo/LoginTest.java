@@ -16,8 +16,8 @@ public class LoginTest {
         driver.get("https://www.saucedemo.com");
 
         // Positive Test Case
-        driver.findElement(By.id("username")).sendKeys("<ValidUN>");
-        driver.findElement(By.id("password")).sendKeys("<ValidPass>");
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.id("login-button")).click();
 
         String currentUrl = driver.getCurrentUrl();
