@@ -12,5 +12,22 @@ $ git push -u origin main
 
 or to master---(then can raise PULL request to merge main)
 
+//Pre-Installation
+--Selenium Jar
+--geckodriver
+
+
+//Execution:-
+Current Location:- cd PlaceOrder/src
+
+javac -cp .:/path/to/selenium-java-3.141.59.jar:/Selenium/lib/*  com/saucedemo/*.java
+
+
+cmd > java -cp .:/path/to/selenium-java-3.141.59.jar:/Selenium/lib/* com.saucedemo.LoginTest
+
+cmd > java -cp .:/path/to/selenium-java-3.141.59.jar:/Selenium/lib/* com.saucedemo.BasketTest
+
+cmd > java -cp .:/path/to/selenium-java-3.141.59.jar:/Selenium/lib/* com.saucedemo.OrderTest
+
 
 
